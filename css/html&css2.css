@@ -1,0 +1,302 @@
+/*start main tags */
+
+/*
+body{
+ height: 6000px   
+}
+*/
+
+.clearfix{
+    clear: both;
+}
+
+
+/*end main tags*/
+
+
+/*start container1*/
+div.container1{
+    width:17%;
+    background-color: antiquewhite;
+    float: left;
+    overflow: auto;
+    height: 563px;
+    padding: 30px 0 0 40px;
+}
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    line-height: 200%
+}
+
+/*end container1*/
+
+
+
+
+
+
+
+
+/*start container2*/
+div.container2{
+    width:76%;
+    float: right;
+    margin: 30px 30px 0 0;
+
+}
+
+.container2 header{
+    padding-bottom: 30px
+}
+
+.container2 header h2{
+    float: left;
+    margin:  0 ;
+}
+
+.container2 header .logo{
+    float: right;
+    direction: rtl  
+    
+}
+
+.container2 header .logo i{
+    width: 30px;
+    font-size: 20px;
+}
+
+.container2 div.im{
+    height: 600px;
+    margin-top: 30px;
+    background: url(../images/business-professional-dress-code-men-style-luxe-digital.jpg) ;
+    background-size: cover;
+    color: #999
+}
+
+
+
+.container2 .im header{
+   padding: 40px 0 0 30px;
+}
+
+.container2 .im header button{
+    background-color: #000;
+    padding: 15px 25px;
+    margin-top: 10px;
+    color: white;
+    border: none
+    
+}
+
+.container2 .im header button:hover{
+    background-color: #CCCCCC;
+    cursor: pointer
+}
+
+
+
+div .im1{
+    padding: 10px 0;
+    
+}
+
+div .im1 .img1{
+    width: 25%;
+    float: left;
+    margin-bottom: 10px
+}
+
+
+
+
+
+
+
+
+
+div .im1 .imgg1{
+    width: 22%;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 16px
+}
+
+div .im1 .imgg1 .lo{
+    background: url(https://cms-assets.themuse.com/media/lead/7029.jpg);
+    background-size: cover;
+    height: 219px
+}
+
+.imgg1 .lo button{
+    background-color: #000;
+    padding: 8px 30px;
+    margin: 78px 0 0 57px;
+    color: white;
+    border: none;
+    display: none
+} 
+
+div .im1 .imgg1 .lo span{
+    background-color: #000;
+    color: white;
+    padding: 0 7px;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div .im1 .img1 img{
+    width: 92%;
+    border: 1px solid #CCCCCC
+}
+
+
+
+
+div .im1 p{
+    margin: 0
+}
+
+div .im2{
+    padding: 10px 0;
+    
+}
+
+div .im2 .img2{
+    width: 25%;
+    float: left
+}
+
+div .im2 .img2 img{
+    width: 92%;
+    border: 1px solid #CCCCCC
+}
+
+div .im2 p{
+    margin: 0
+}
+
+
+div .sub{
+    background-color: #000;
+    padding: 30px 0 20px 20px;
+    padding-bottom: 30px;
+    color: white;
+    margin-top: 30px
+}
+
+div .sub input{
+    width: 95%;
+    height: 30px
+}
+
+div .sub button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #F44336;
+    border: none;
+    color: white
+}
+
+div .sub button:hover{
+    background-color: #CCCCCC;
+    cursor: pointer
+}
+
+
+/*       */
+
+div .section{
+    background-color: #F1F1F1;
+    padding-top: 30px ;
+    margin-top: 30px;
+    overflow: hidden
+}
+
+div .section .sec{
+    width: 33.333333%;
+    float: left;
+    text-align: center
+}
+
+
+div .section .sec input{
+    margin-bottom: 20px;
+    width: 80%;
+    height: 25px
+}
+
+div .section .sec button{
+    padding: 8px 12px;
+    width: 83%;
+    background-color: #000;
+    border: none;
+    color: white
+}
+
+div .section .sec button:hover{
+    background-color: #CCCCCC;
+    cursor: pointer
+}
+
+div .section .sec ul{
+    list-style: none;
+    line-height: 200%;
+}
+
+div .section .sec ul li a{
+    color: #000
+}
+
+div .section .sec1{
+    width: 33.333333%;
+    float: left;
+    line-height: 250%
+
+}
+
+div .section .sec1 h2{
+    margin: 0
+}
+
+div .section .sec1 .log{
+    margin-top: 20px
+}
+
+div .section .sec1 .log i{
+    font-size: 25px;
+}
+
+div .section .sec1 .log i:hover{
+    color: #888
+}
+
+
+
+/*        */
+
+div .footer{
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*end container2*/
+
+
