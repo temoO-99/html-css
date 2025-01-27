@@ -2,558 +2,516 @@
 /**{box-sizing: border-box} //if i need padding without stretsh width*/
 /* > dirct child if i need put css in first direct child only without other one*/
 
-body{
-        font-family: sans-serif;
-        height: 5000px;
+body {
+  font-family: sans-serif;
+  height: 5000px;
 }
 
-
-.container{
-    width: 1000px;
-    margin:auto ;
+.container {
+  width: 1000px;
+  margin: auto;
 }
 
-.clearfix{clear: both}
+.clearfix {
+  clear: both;
+}
 
-p{
-    font-weight: bold;
+p {
+  font-weight: bold;
 }
 
 /* main tages */
 
 /*start header*/
 
-header .slider{
-    background-image: url(../images/Covid_webbanner_1700x500.png);
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 400px;
-    color: #FFF;
+header .slider {
+  background-image: url(../images/Covid_webbanner_1700x500.png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 400px;
+  color: #fff;
 }
 
-header .slider .intro{
-    text-align: center;
-    padding-top: 200px;
+header .slider .intro {
+  text-align: center;
+  padding-top: 200px;
 }
 
-header .slider .intro h1{
-    margin: 0 auto;
-    width: 440px;
-    border-top: 3px solid #FFF;
-    border-bottom: 3px solid #FFF;
-    margin-bottom: 20px;
-    padding: 5px;
+header .slider .intro h1 {
+  margin: 0 auto;
+  width: 440px;
+  border-top: 3px solid #fff;
+  border-bottom: 3px solid #fff;
+  margin-bottom: 20px;
+  padding: 5px;
 }
 
-
-header .slider .intro button{
-    background: none;
-    color: #FFF;
-    padding: 5px;
-    border: 2px solid #FFF;
-    width: 140px
+header .slider .intro button {
+  background: none;
+  color: #fff;
+  padding: 5px;
+  border: 2px solid #fff;
+  width: 140px;
 }
 
-header .nav{
-    background-color: #252F31;
-    color: #FFF;
-    overflow: hidden;
-    text-transform: uppercase;
-    font-size: 13px;
-
+header .nav {
+  background-color: #252f31;
+  color: #fff;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 13px;
 }
 
-
-header .nav h2 span{
-color: #32CC80    
+header .nav h2 span {
+  color: #32cc80;
 }
 
-header .nav ul{
-    
-    list-style: none;
-    padding-left: 0px;
-    float: right;
+header .nav ul {
+  list-style: none;
+  padding-left: 0px;
+  float: right;
 }
 
-header .nav ul li{
-    padding: 10px;
+header .nav ul li {
+  padding: 10px;
 }
 
-header .nav ul li a{
-    color: #FFF;
-    text-decoration: none
+header .nav ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 header .nav ul li#active a,
-header .nav ul li a:hover{
-    color:#32CC80 ;
+header .nav ul li a:hover {
+  color: #32cc80;
 }
 
 /*end header*/
 
-
 /*start features*/
-.features{
-    overflow: hidden;
-    padding-top: 40px;
-    padding-bottom: 40px
+.features {
+  overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
-.features .feat{
-    float: left;
-    width: 33.333333%;
-
-    
+.features .feat {
+  float: left;
+  width: 33.333333%;
 }
-.features .feat >h3{
-    color: #555
+.features .feat > h3 {
+  color: #555;
 }
 
-.features .feat p{
-    color: #999;
-    line-height: 150%;
+.features .feat p {
+  color: #999;
+  line-height: 150%;
 }
 
 /*end features*/
 
-
 /*start About*/
-.About{
-    overflow: hidden;
-    background-color: #F2F2F2
+.About {
+  overflow: hidden;
+  background-color: #f2f2f2;
+  height: 450px;
 }
 
-.About .im{
-    float: left;
-    width: 40%;
-    
+.About .im {
+  float: left;
+  width: 40%;
+  height: 100%;
 }
 
-.About .im img{
-    height: 100%
+.About .im img {
+  height: 100%;
+  width: 100%;
 }
 
-.About .reight{
-    float: right;
-    width: 60%;
-    
+.About .reight {
+  float: right;
+  width: 60%;
 }
 
-.About .reight h2{
-    margin: 40px 0 20px 20px;
-    color: #555
+.About .reight h2 {
+  margin: 35px 0 15px 20px;
+  color: #555;
 }
 
-.About .reight h3{color: #555}
-
-.About .reight p{
-        line-height: 150%;
-        color: #999
+.About .reight h3 {
+  color: #555;
 }
 
-.About .reight >p{
-margin: 0 0 30px 20px;
+.About .reight p {
+  line-height: 150%;
+  color: #999;
 }
 
-
-.About .reight .log{
-        margin: 0 0 20px 20px;
+.About .reight > p {
+  margin: 0 0 20px 20px;
 }
 
-.About .reight .log .contnent{
-    float: left;
-    width: 50%;
-    margin-top: 0;
+.About .reight .log {
+  margin: 0 0 15px 20px;
 }
 
-.About .reight .log .contnent .icon{
-    width: 12%;
-    float: left;
+.About .reight .log .contnent {
+  float: left;
+  width: 50%;
+  margin-top: 0;
 }
 
-.About .reight .log .contnent .icon img{
-    width: 100%;
-    margin-top: 20px;
+.About .reight .log .contnent .icon {
+  width: 12%;
+  float: left;
 }
 
-.About .reight .log .contnent .text{
-    width: 83%;
-    float: right;
+.About .reight .log .contnent .icon img {
+  width: 100%;
+  margin-top: 20px;
 }
 
-.About .reight .log .contnent .text h3{
-    margin-bottom: 0
+.About .reight .log .contnent .text {
+  width: 83%;
+  float: right;
+}
+
+.About .reight .log .contnent .text h3 {
+  margin-bottom: 0;
 }
 
 /*end About*/
 
-
-
 /* start My Skills */
-.myskills{
-    height:300px;
-    padding-bottom: 30px;
-    padding-top: 30px;
+.myskills {
+  height: 300px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
-.myskills .container .skills{
-    float: left;
-    width: 50%;
+.myskills .container .skills {
+  float: left;
+  width: 50%;
 }
 
-.myskills .container .skills h3{
-    color: #555
+.myskills .container .skills h3 {
+  color: #555;
 }
 
-.myskills .container .skills >p{
-    line-height: 150%;
-    color: #888
+.myskills .container .skills > p {
+  line-height: 150%;
+  color: #888;
 }
 
-.myskills .container .skills >button{
-    padding: 7px;
-    width: 120px;
-    margin-top: 20px;
+.myskills .container .skills > button {
+  padding: 7px;
+  width: 120px;
+  margin-top: 20px;
 }
 
-.myskills .container .creat{
-    padding-top: 25px;
-    width: 30%;
-    float: left;
-    margin-left: 20px
+.myskills .container .creat {
+  padding-top: 25px;
+  width: 30%;
+  float: left;
+  margin-left: 20px;
 }
-.myskills .container .creat .pro h4{
-    color: #555;
-    margin-bottom: 4px
-    
-}
-
-.myskills .container .creat .pro div{
-    width: 400px;
-    height: 18px;
-    background-color: #F2F2F2;
+.myskills .container .creat .pro h4 {
+  color: #555;
+  margin-bottom: 4px;
 }
 
-.myskills .container .creat .pro span{
-    background-color: #2DCC70;
-    text-align: right;
-    display: block;
-    height: 100%;
-    color: #FFF
-        
+.myskills .container .creat .pro div {
+  width: 400px;
+  height: 18px;
+  background-color: #f2f2f2;
+}
+
+.myskills .container .creat .pro span {
+  background-color: #2dcc70;
+  text-align: right;
+  display: block;
+  height: 100%;
+  color: #fff;
 }
 
 /* end My Skills */
 
-
 /* start Resume */
-.resume{
-    background-color: #F2F2F2;
-    text-align: center;
-    line-height: 250%;
-    padding-top: 50px;
-    padding-bottom: 60px;
-    color: #888
+.resume {
+  background-color: #f2f2f2;
+  text-align: center;
+  line-height: 250%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  color: #888;
 }
 
-.resume h2{
-    color: #555;
+.resume h2 {
+  color: #555;
 }
 
-
-.resume button{
-    width: 180px;
-    margin-top: 20px;
-    
+.resume button {
+  width: 180px;
+  margin-top: 20px;
 }
 
 /* end  Resume */
 
-
 /* start MYEDUCTION  */
-.education{
-    padding-bottom: 30px;
-    padding-top: 40px;
-      color: #555
-    
+.education {
+  padding-bottom: 30px;
+  padding-top: 40px;
+  color: #555;
 }
 
-.education .container .my{
-    float: left;
-    width: 50%;
-    line-height: 50%;
-    color: #888
-  
+.education .container .my {
+  float: left;
+  width: 50%;
+  line-height: 50%;
+  color: #888;
 }
 
-.education .container .graph{
-    float: right;
-    width: 47%;
-    margin-top: 0 ;
-    margin-left: 4px;
-    margin-bottom: 50px
+.education .container .graph {
+  float: right;
+  width: 47%;
+  margin-top: 0;
+  margin-left: 4px;
+  margin-bottom: 50px;
 }
 
-.education .container .graph p{
-    line-height: 150%;
-    color: #888
+.education .container .graph p {
+  line-height: 150%;
+  color: #888;
 }
 
-.education .container .graph span{color: #888;font-weight: bold}
+.education .container .graph span {
+  color: #888;
+  font-weight: bold;
+}
 
 .education .container .graph .graph1 {
-    width: 100%;
+  width: 100%;
 }
 
-.education .container .graph h3{
-    color: #555; 
-    margin-bottom: 10px
+.education .container .graph h3 {
+  color: #555;
+  margin-bottom: 10px;
 }
 
-.education .container .graph .graph2 h3{
-
-    margin-top: 50px
+.education .container .graph .graph2 h3 {
+  margin-top: 50px;
 }
 
-.education .container .graph .d{
-    width: 70px;
-    height: 26px;
-    background-color: #2DCC70;
-    color: #FFF;
-    padding-top: 6px;
-    text-align: center;
-    margin-bottom: 26px;
-    margin-top: 10px
+.education .container .graph .d {
+  width: 70px;
+  height: 26px;
+  background-color: #2dcc70;
+  color: #fff;
+  padding-top: 6px;
+  text-align: center;
+  margin-bottom: 26px;
+  margin-top: 10px;
 }
 
-
-.education .work{
-    padding-bottom: 30px;
-    padding-top: 30px;
-    
+.education .work {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
-.education .work .container .my{
-    float: left;
-    width: 50%;
-    line-height: 50%
+.education .work .container .my {
+  float: left;
+  width: 50%;
+  line-height: 50%;
 }
 
- .education .work .container .graph{
-    float: right;
-    width: 50%;
-    margin-top: 0;
+.education .work .container .graph {
+  float: right;
+  width: 50%;
+  margin-top: 0;
 }
 
-.education .work .container .graph .graph1{
-    width: 100%
+.education .work .container .graph .graph1 {
+  width: 100%;
 }
 
 /* end MYEDUCTION  */
 
-
-.res{
-    background-color: #F2F2F2;
-    text-align: center;
-    line-height: 250%;
-    padding: 50px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    color: #555
-    
-    
-
+.res {
+  background-color: #f2f2f2;
+  text-align: center;
+  line-height: 250%;
+  padding: 50px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #555;
 }
 
-.res p{
-    font-style: italic;
-    color: #888
+.res p {
+  font-style: italic;
+  color: #888;
 }
 
-.res ul{
-    list-style: none;
-    text-align: center;
-    margin-right: 44px
+.res ul {
+  list-style: none;
+  text-align: center;
+  margin-right: 44px;
 }
 
-.res ul li{
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border: 1px solid #2DCC70;
-    border-radius: 50%
+.res ul li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #2dcc70;
+  border-radius: 50%;
 }
 
-.res ul li.active{background-color: #2DCC70}
+.res ul li.active {
+  background-color: #2dcc70;
+}
 /*start protofolio */
 .portfolio {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    color: #555
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: #555;
 }
 
 .portfolio .container h2,
-.portfolio .container p{ 
-    text-align: center;
-    line-height: 150%;
+.portfolio .container p {
+  text-align: center;
+  line-height: 150%;
 }
-.portfolio .container p{color: #888;margin-left: 90px;margin-right: 90px;}
-.portfolio .container .imgg{
-/*    overflow: hidden;*/
-    margin-top: 40px
+.portfolio .container p {
+  color: #888;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+.portfolio .container .imgg {
+  /*    overflow: hidden;*/
+  margin-top: 40px;
 }
 
-.portfolio .container .imgg >div{
-    width:33.333333%;
-    float: left;
-    margin-bottom: 20px;
+.portfolio .container .imgg > div {
+  width: 33.333333%;
+  float: left;
+  margin-bottom: 20px;
 }
-.portfolio .container .imgg >div img{
-    width: 92%;
+.portfolio .container .imgg > div img {
+  width: 92%;
 }
 
 /*end protofolio */
 
-
-
 /*start contact me*/
-.contact{
-    padding-top: 30px;
-    background-color: #252F31;
-    overflow: hidden
+.contact {
+  padding-top: 30px;
+  background-color: #252f31;
+  overflow: hidden;
 }
 
-.contact .container .section1{
-    width: 50%;
-    float: left
-    
+.contact .container .section1 {
+  width: 50%;
+  float: left;
 }
 
-
-.contact .container .section1 h3{color: #e7e5e5}
+.contact .container .section1 h3 {
+  color: #e7e5e5;
+}
 .contact .container .section1 p {
-    line-height: 150%;
-    color: #888
+  line-height: 150%;
+  color: #888;
 }
 
-.contact .container .section1 strong{
-    color: #e7e5e5;
-    font-size: 13px;
-    font-weight: bold
+.contact .container .section1 strong {
+  color: #e7e5e5;
+  font-size: 13px;
+  font-weight: bold;
 }
 
-.contact .container .section2{
-    width: 47%;
-    float:right;
-    padding-top: 30px;
-    margin-left: 4px;
+.contact .container .section2 {
+  width: 47%;
+  float: right;
+  padding-top: 30px;
+  margin-left: 4px;
 }
 
-.contact .container .section2 p{
-    color: #e7e5e5;
+.contact .container .section2 p {
+  color: #e7e5e5;
 }
 
-.contact .container .section2 label{
-    display: block;
-    padding: 10px 0 10px 0;
-    margin-bottom: 10PX;
-    background-color:#444E50;
-    height: 20px
+.contact .container .section2 label {
+  display: block;
+  padding: 10px 0 10px 0;
+  margin-bottom: 10px;
+  background-color: #444e50;
+  height: 20px;
 }
 
-.contact .container .section2 textarea{
-    background-color: #444E50;
-    width: 100%;
-    height: 230px;
-    border: none
+.contact .container .section2 textarea {
+  background-color: #444e50;
+  width: 100%;
+  height: 230px;
+  border: none;
 }
-.contact .container .section2 button{
-    background-color: #191E22;
-    color: #e7e5e5;
-    padding: 7px 10px;
-    width: 130px;
-    margin: 30px 0 ;
-    border: none
+.contact .container .section2 button {
+  background-color: #191e22;
+  color: #e7e5e5;
+  padding: 7px 10px;
+  width: 130px;
+  margin: 30px 0;
+  border: none;
 }
 
 /*end contact me*/
 
-
 /*start footer*/
-.footer{
-    background-color: #191E22;
-    text-align: center;
-    padding: 20px;
+.footer {
+  background-color: #191e22;
+  text-align: center;
+  padding: 20px;
 }
 
-
-.footer .img img{
-    width: 30px;
-    height: 30px
+.footer .img img {
+  width: 30px;
+  height: 30px;
 }
 
-
-.footer ul{
-    list-style: none;
-    margin-right: 25px
+.footer ul {
+  list-style: none;
+  margin-right: 25px;
 }
 
-.footer ul li{
-    display: inline-block
+.footer ul li {
+  display: inline-block;
 }
 
-.footer ul li i{
-    width: 40px;
-    height: 25px;
-    font-size:20px;
-    font-weight: 100;
-    color: #888
+.footer ul li i {
+  width: 40px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 100;
+  color: #888;
 }
 /*end footer*/
 
-
-
-
-
-
-
-
-
-
 /*start frame work*/
 
-.mybutton{
-    border: 2px solid #2DCC70;
-    background: none;
-    color: #2DCC70;
-    padding: 7px;
-    font-weight: bold;
+.mybutton {
+  border: 2px solid #2dcc70;
+  background: none;
+  color: #2dcc70;
+  padding: 7px;
+  font-weight: bold;
 }
 
-.mybutton:hover{
-    background-color: #ccc;
-    cursor:pointer
-    
+.mybutton:hover {
+  background-color: #ccc;
+  cursor: pointer;
 }
 
-.left{
-    float: left
+.left {
+  float: left;
 }
 
 /*end frame work*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
